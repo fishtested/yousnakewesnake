@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Snake We Snake</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <script src="generator.js" defer></script>
+    <link rel="preconnect" href="https://fonts.upset.dev">
+    <link href="https://api.fonts.coollabs.io/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin />
+    <link href="https://api.fonts.coollabs.io/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  
+</head>
+<body>
+    <img src="/flag-orpheus-top.svg" class="flag animate__animated animate__swing" onclick="hc()">
+    <div id="header" class="container mt-4">
+        <div class="header-text">
+          <h1>#you-snake-we-snake</h1>
+          <p>Build a unique Snake-inspired game,<br>get a large snake toy!</p>
+          <button type="button" class="button">SUBMIT! (not yet)</button>
+        </div>
+        <img src="snake.png" class="header-img">
+      </div>
+
+    <div class="container mt-4">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="box p-4">
+                    <h3>Step 1</h3>
+                    <p>Build a unique Snake-inspired game</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="box p-4">
+                    <h3>Step 2</h3>
+                    <p>Submit your game for review</p>
+                </div>
+            </div>
+    
+            <div class="col-md-4 mb-4">
+                <div class="box p-4">
+                    <h3>Step 3</h3>
+                    <p>Get an actual 45 inch snake toy after 6 hours</p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="container info">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="snake-heading">What's Snake?</h2>
+            <p>
+              <span class="italic">Snake</span> is a classic game where you control a growing line that eats food and gets longer.
+              If you crash into yourself, game over.
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Snake-nokia-phone.jpg" class="image" alt="Snake game on a Nokia phone">
+            <p class="credit">Image via Wikipedia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container info">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2>How does this work?</h2>
+            <p>Make a game inspired by the classic game, <span class="italic">Snake</span>.<br>Projects must include an aspect that makes it unique, not a clone.<br>After 6 hours, you can get a 45 inch snake plush toy!</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <img src="snake.png" class="image" alt="Snake toys">
+          </div>
+        </div>
+      </div>
+
+    <div class="container idea">
+        <h2>Need inspiration?</h2>
+        <p id="idea">Click the button to generate a random game idea.</p>
+        <button type="button" class="button" onclick="showIdea()">GENERATE!</button>
+    </div>
+    <div class="container mt-3 faq">
+        <div class="row">
+            <div class="col-12 mb-3">
+                <div class="box p-3">
+                    <h3>Can I double dip?</h3>
+                    <p>Hours cannot be shared with other programs.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="box p-3">
+                    <h3>How do I track time?</h3>
+                    <p>You must use the Hackatime extension to track your hours.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="box p-3">
+                    <h3>Who can participate?</h3>
+                    <p>You must be teenager aged 13 to 18 in Hack Club.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="box p-3">
+                    <h3>When will this start?</h3>
+                    <p>To be determined.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="box p-3">
+                    <h3>Can I use AI?</h3>
+                    <p>Minimal AI is allowed for learning and troubleshooting, but you cannot build the majority of your project with AI. AI use must be disclosed. Projects that heavily use AI, or appear vibe coded, will be rejected.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"><h1>questions? ask in #you-snake-we-snake on the Slack!</h1></div>
+</body>
+</html>
